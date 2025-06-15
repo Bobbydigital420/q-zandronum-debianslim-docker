@@ -8,10 +8,10 @@ The server is running on the default 10666 port in the container.
 
 Example
 
-<code> 
-docker run --name q-zandronum  
-	-p 10666:10666/udp  
-	--volume /path/to/wads:/home/zandronum/.config/zandronum  
-	bobbydigital420/q-zandronum 
+
+docker run --name q-zandronum \
+	-p 10666:10666/udp \
+	--volume /path/to/wads:/home/zandronum/.config/zandronum \ 
+	bobbydigital420/q-zandronum \
         +set SV_WeaponStay true +set SV_NoWeaponSpawn true +set SV_ShareKeys true -iwad DOOM2.WAD
-     <code/> 
+  
