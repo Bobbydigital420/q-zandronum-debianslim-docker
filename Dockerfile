@@ -1,9 +1,9 @@
-FROM archlinux:latest
+FROM debian:stable-slim
 
 WORKDIR /
 ENTRYPOINT ["/home/zandronum/qzandronum/q-zandronum-server"]
 
-RUN pacman -Sy sdl12-compat wget --noconfirm
+RUN apt update && apt install -y libsdl1.2-compat-shim wget
 RUN useradd -ms /bin/bash zandronum
 USER zandronum
 ADD zandronum.ini /home/zandronum/.config/zandronum/
