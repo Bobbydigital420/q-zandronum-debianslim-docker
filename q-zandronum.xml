@@ -21,8 +21,7 @@
   <CPUset/>
   <Date>2026-08-09</Date>
   <MinVer/>
-  <Configuration>
-    <Config Name="Extra Server Arguments" Target="EXTRA_ARGS" Default="-port 10666 -iwad doom2.wad" Description="Add your custom command line parameters here (e.g. -port 10666 -iwad doom2.wad +exec server.cfg)" Type="Variable" Display="always" Required="false" Mask="false"/>
-    <Config Name="Game Port" Target="10666" Default="10666" Description="The default UDP port used by the Zandronum multiplayer server engine." Type="Port" Display="always" Required="true" Mask="false" Mode="udp"/>
-  </Configuration>
+  <Config Name="Extra Server Arguments" Target="EXTRA_ARGS" Default="" Description="Add your custom command line parameters here (e.g. -port 10666 -iwad doom2.wad +exec server.cfg)" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Game Port" Target="10666" Default="10666" Description="The default UDP port used by the Zandronum multiplayer server engine." Type="Port" Display="always" Required="true" Mask="false" Mode="udp"/>
+  <Config Name="Doom WADs Directory" Target="/home/zandronum/.config/zandronum" Default="/mnt/user/appdata/q-zandronum" Description="Container path where game files, settings, and custom WADs are stored." Type="Path" Display="always" Required="true" Mask="false" Mode="rw"/>
 </Container>
