@@ -1,0 +1,10 @@
+<CommunityApplications>
+  <!-- Required profile -->
+  <Profile>
+    A lightweight, dedicated headless server container for Q-Zandronum (v1.4.22), the specialized Doom multiplayer source port optimized for Quake Champions: Doom Edition (QC:DE). Features fluid Quake-style movement and optimized netcode for high-speed arena combat.
+  </Profile>
+  <!-- Optional icon -->
+  <Icon>https://repository-images.githubusercontent.com/293635319/740b4380-342d-11eb-8fdd-1afd11c7e5c7</Icon>
+  <!-- Optional web page -->
+  <WebPage>https://github.com/Bobbydigital420/q-zandronum-debianslim-docker</WebPage>
+</CommunityApplications>
