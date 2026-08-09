@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Q-Zandronum</Name>
+  <Repository>bobbydigital420/q-zandronum-debianslim:latest</Repository>
+  <Registry>https://hub.docker.com/r/bobbydigital420/q-zandronum-debianslim</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/Bobbydigital420/q-zandronum-debianslim-docker/issues</Support>
+  <Project>https://github.com/Bobbydigital420/q-zandronum-debianslim-docker</Project>
+  <Overview>
+    A lightweight, dedicated headless server container for Q-Zandronum (v1.4.22), the specialized Doom multiplayer source port optimized for Quake Champions: Doom Edition (QC:DE). Features fluid Quake-style movement and optimized netcode for high-speed arena combat.
+  </Overview>
+  <Category>GameServers:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://repository-images.githubusercontent.com/293635319/740b4380-342d-11eb-8fdd-1afd11c7e5c7</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <Date>2026-08-09</Date>
+  <MinVer/>
+  <Configuration>
+    <Config Name="Extra Server Arguments" Target="EXTRA_ARGS" Default="-port 10666 -iwad doom2.wad" Description="Add your custom command line parameters here (e.g. -port 10666 -iwad doom2.wad +exec server.cfg)" Type="Variable" Display="always" Required="false" Mask="false"/>
+    <Config Name="Game Port" Target="10666" Default="10666" Description="The default UDP port used by the Zandronum multiplayer server engine." Type="Port" Display="always" Required="true" Mask="false" Mode="udp"/>
+  </Configuration>
+</Container>
