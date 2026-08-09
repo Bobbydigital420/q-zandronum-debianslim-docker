@@ -13,7 +13,7 @@ Example
 docker run --name q-zandronum \
   -p 10666:10666/udp \
   --volume /path/to/wads:/home/zandronum/.config/zandronum \
-  bobbydigital420/q-zandronum:latest \
+  bobbydigital420/q-zandronum-debianslim:latest \
   +set SV_WeaponStay true +set SV_NoWeaponSpawn true +set SV_ShareKeys true -iwad DOOM2.WAD
 ```
 
