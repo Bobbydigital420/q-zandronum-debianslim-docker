@@ -1,4 +1,4 @@
-Q-Zandronum v1.4.22
+Q-Zandronum v1.4.22 (amd64/arm64)
 
 Arguments for Q-Zandronum can be appended to the end of the docker run command. If you are running Unraid the appended arguments can be added using the EXTRA_ARGS env variable  <br>
 
